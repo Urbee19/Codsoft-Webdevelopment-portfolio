@@ -1,0 +1,164 @@
+/* Basic styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #badaf7;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #0e0c0c;
+}
+.container img{
+    border-radius: 50%;
+    border-width: 10%;
+    border-color: brown;
+    box-shadow: #333s;
+    
+}
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.contact-btn {
+    background-color: #101551;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Image positioning */
+.skills-list, .projects-list {
+    display: flex; /* Make the list container flexbox */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+}
+
+.skills-list li, .projects-list li {
+    width: 50%; /* Set width for each list item */
+    margin-bottom: 20px;
+}
+
+.skills-list li:nth-child(odd), .projects-list li:nth-child(odd) {
+    text-align: left; /* Align content left for odd items */
+}
+
+.skills-list li:nth-child(even), .projects-list li:nth-child(even) {
+    text-align: right; /* Align content right for even items */
+}
+
+.skill-icon {
+    margin-right: 10px; /* Adjust margin for skill icons */
+}
+.skills-list img {
+    width: 50%;
+}
+.container img {
+    width: 30%;
+}
+footer {
+    background-color: #444242;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: burlywood;
+}
+footer a{
+    color: #ccc;
+}
+#resume {
+    text-align: center; /* Center align resume content */
+    margin-bottom: 50px; /* Add some space after the resume section */
+}
+
+#resume p {
+    margin-bottom: 20px; /* Add spacing between paragraph and buttons */
+}
+
+.resume-options {
+    display: flex;
+    justify-content: center; /* Center align buttons horizontally */
+    gap: 20px; /* Add spacing between buttons */
+}
+
+.resume-download-btn, .resume-view-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from buttons */
+}
+
+.resume-download-btn {
+    background-color: #1e70c1; /* Adjust color for download button */
+}
+.lang{
+    color: #0d0d0d;
+    margin-left: 20%;
+}
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+textarea {
+    height: 100px; /* Adjust textarea height as needed */
+}
+
+#contact-form button {
+    background-color: #333; /* Match contact button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Add some space above the button */
+}
+
+#contact-form button:hover {
+    background-color: #2e2e2e; /* Slight color change on hover */
+}
